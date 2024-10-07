@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Artist Profile</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5dc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('music-bg.jpg');
+            background-size: cover;
+        }
+        .music-container {
+            background-color: #33416b;
+            padding: 30px;
+            border-radius: 15px;
+            width: 400px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(8, 8, 255, 0.907);
+        }
+        .music-container h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .music-container h2 {
+            font-size: 20px;
+            color: #f5f5dc;
+            margin-bottom: 20px;
+        }
+        .genre {
+            margin-bottom: 20px;
+        }
+        .genre span {
+            font-size: 16px;
+            background-color: #f5f5dc;
+            color: #33416b;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .songs {
+            margin-bottom: 20px;
+        }
+        .songs h3 {
+            margin-bottom: 10px;
+        }
+        audio {
+            width: 100%;
+            margin: 10px 0;
+        }
+        .description {
+            color: #f5f5dc;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="music-container">
+    <h1>Mabes Musik UAD</h1>
+    <h2>Alternative Band Artist</h2>
+
+    <div class="genre">
+        <span>Genre: Pop, Rock, Alternative, Pop Punk</span>
+    </div>
+
+    <div class="songs">
+        <h3>Top Songs:</h3>
+        <p>1. I'll Wait</p>
+        <audio controls>
+            <source src="fire-in-the-rain.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <p>2. Angkasa</p>
+        <audio controls>
+            <source src="midnight-sun.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="description">
+        <p>John Doe is a rising star in the alternative rock scene, blending powerful guitar riffs with emotional lyrics. His music captures the essence of raw emotions and energetic performances that resonate with fans worldwide.</p>
+    </div>
+</div>
+
+</body>
+</html>
